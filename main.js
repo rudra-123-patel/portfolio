@@ -3,10 +3,10 @@ let navbar = document.querySelector('.navbar');
 
 
 
-menuIcon.onClick = () =>{
+menuIcon.addEventListener('click',() =>{
     menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active')
-}
+});
 
 
 let sections = document.querySelectorAll('section');
